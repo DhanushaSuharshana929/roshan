@@ -14,16 +14,16 @@
 class Database {
 
 
-//    private $host = 'localhost';
-//    private $name = 'islapiiu_faithlink';
-//    private $user = 'islapiiu_main';
-//    private $password = 'Ue.t;FNgC?BG,Paf8V';
+    private $host = 'localhost';
+    private $name = 'roshan';
+    private $user = 'root';
+    private $password = '';
 
 
-private $host = 'localhost';
-private $name = 'synoteca_roshan_fernando';
-private $user = 'synoteca_main';
-private $password = '3rTI#)-vDmAKczXQ-J';
+//private $host = 'localhost';
+//private $name = 'synoteca_roshan_fernando';
+//private $user = 'synoteca_main';
+//private $password = '3rTI#)-vDmAKczXQ-J';
 
     public function __construct() {
 
