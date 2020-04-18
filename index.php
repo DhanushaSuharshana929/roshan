@@ -396,7 +396,7 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
                         </div>
                     </div>
                 </section>
-                <section id="news" class="ds ms section_padding_top_150 section_padding_bottom_130">
+                <section id="news" class="ds ms section_padding_top_30 section_padding_bottom_130">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12 text-center">
