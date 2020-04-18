@@ -87,7 +87,7 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
                         </div>
                     </div>
                 </section>
-                  <section id="events" class="ds ms section_padding_top_100 section_padding_bottom_100">
+                  <section id="events" class="ds ms section_padding_top_50 section_padding_bottom_50">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12 text-center">
@@ -125,7 +125,7 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
                     </div>
                 </section>
 
-                <section id="latest-album" class="ds ms page_latest_album parallax section_padding_top_100 section_padding_bottom_100 columns_margin_bottom_30 columns_padding_25">
+                <section id="latest-album" class="ds ms page_latest_album parallax section_padding_top_50 section_padding_bottom_50 columns_margin_bottom_30 columns_padding_25">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12 text-center">
