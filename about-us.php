@@ -1,8 +1,7 @@
 <?php
 include './class/include.php';
 $BIOGRAPHYINFO = new Page(1);
-$BIOGRAPHYDISCRIPTION = new Page(2);
-$ABOUTDESCRIPTION = new Page(3);
+$BIOGRAPHYDISCRIPTION = new Page(3);
 ?>
 
 
@@ -13,9 +12,9 @@ $ABOUTDESCRIPTION = new Page(3);
     
 
 
-    <head>
+    <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <title>Singer</title>
-        <meta charset="utf-8">
+        
        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -87,10 +86,12 @@ $ABOUTDESCRIPTION = new Page(3);
 
                             <div class="col-md-6">
                                 <h2 class="section_header with_line">Biography</h2>
-                                <p><?php echo $ABOUTDESCRIPTION->description ?></p>
+                                <!--<p class="fontsize_20 "><?php echo $BIOGRAPHYINFO->description ?></p>-->
+                                <p style="text-align: justify"><?php echo $BIOGRAPHYDISCRIPTION->description ?>
+                                </p>
                                 <div class="content-justify vertical-center content-margins topmargin_25">
                                     <div>
-                                        <h3 class="highlight bottommargin_0">Roshan Fernando</h3>
+                                        <h3 class="highlight bottommargin_0">Roshan Fenando</h3>
                                         <p class="small-text grey">Music Artist</p>
                                     </div> <img src="images/signature.png" alt=""> </div>
                             </div>

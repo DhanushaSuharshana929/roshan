@@ -72,8 +72,8 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
 
                             <div class="col-md-6">
                                 <h2 class="section_header with_line">Biography</h2>
-                                <p class="fontsize_20 "><?php echo $BIOGRAPHYINFO->description ?>
-                                </p>
+                                <!--<p class="fontsize_20 "><?php echo $BIOGRAPHYINFO->description ?>-->
+                                <!--</p>-->
                                 <p style="text-align: justify"><?php echo $BIOGRAPHYDISCRIPTION->description ?>
                                 </p>
                                 <div class="content-justify vertical-center content-margins topmargin_25">
