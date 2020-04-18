@@ -17,6 +17,8 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
         <![endif]-->	
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/animations.css">
@@ -170,18 +172,18 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
                                                 "artworkId": 0,
                                                 "artworkUrl": "#0",
                                                 "audioId": 1,
-                                                "audioUrl": "https://roshan.synotec.lk/files/mp3/1.mp3",
+                                                "audioUrl": "https://www.roshanfernando.lk/files/mp3/1.mp3",
                                                 "format": "mp3",
                                                 "length": "4:04",
                                                 "title": "Husma Dhige",
                                                 "order": 0,
-                                                "mp3": "https://roshan.synotec.lk/files/mp3/1.mp3",
+                                                "mp3": "https://www.roshanfernando.lk/files/mp3/1.mp3",
                                                 "meta":
                                                 {
                                                 "artist": "Roshan Fernando",
                                                 "length_formatted": "4:04"
                                                 },
-                                                "src": "https://roshan.synotec.lk/files/mp3/1.mp3",
+                                                "src": "https://www.roshanfernando.lk/files/mp3/1.mp3",
                                                 "thumb":
                                                 {
                                                 "src": "img/songs/1.png"
@@ -192,18 +194,18 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
                                                 "artworkId": 0,
                                                 "artworkUrl": "#0",
                                                 "audioId": 2,
-                                                "audioUrl": "https://roshan.synotec.lk/files/mp3/2.mp3",
+                                                "audioUrl": "https://www.roshanfernando.lk/files/mp3/2.mp3",
                                                 "format": "mp3",
                                                 "length": "4:48",
                                                 "title": " Supem Suwandak Aran",
                                                 "order": 0,
-                                                "mp3": "https://roshan.synotec.lk/files/mp3/2.mp3",
+                                                "mp3": "https://www.roshanfernando.lk/files/mp3/2.mp3",
                                                 "meta":
                                                 {
                                                 "artist": "Roshan Fernando",
                                                 "length_formatted": "4:48"
                                                 },
-                                                "src": "https://roshan.synotec.lk/files/mp3/2.mp3",
+                                                "src": "https://www.roshanfernando.lk/files/mp3/2.mp3",
                                                 "thumb":
                                                 {
                                                 "src": "img/songs/2.png"
@@ -214,18 +216,18 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
                                                 "artworkId": 0,
                                                 "artworkUrl": "#0",
                                                 "audioId": 3,
-                                                "audioUrl": "https://roshan.synotec.lk/files/mp3/3.mp3",
+                                                "audioUrl": "https://www.roshanfernando.lk/files/mp3/3.mp3",
                                                 "format": "mp3",
                                                 "length": "3:16",
                                                 "title": "Hitha Hiri Wattana",
                                                 "order": 0,
-                                                "mp3": "https://roshan.synotec.lk/files/mp3/3.mp3",
+                                                "mp3": "https://www.roshanfernando.lk/files/mp3/3.mp3",
                                                 "meta":
                                                 {
                                                 "artist": "Roshan Fernando",
                                                 "length_formatted": "3:16"
                                                 },
-                                                "src": "https://roshan.synotec.lk/files/mp3/3.mp3",
+                                                "src": "https://www.roshanfernando.lk/files/mp3/3.mp3",
                                                 "thumb":
                                                 {
                                                 "src": "img/songs/3.png"
@@ -236,18 +238,18 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
                                                 "artworkId": 0,
                                                 "artworkUrl": "#0",
                                                 "audioId": 4,
-                                                "audioUrl": "https://roshan.synotec.lk/files/mp3/4.mp3",
+                                                "audioUrl": "https://www.roshanfernando.lk/files/mp3/4.mp3",
                                                 "format": "mp3",
                                                 "length": "3:58",
                                                 "title": "Perada Handawa ",
                                                 "order": 0,
-                                                "mp3": "https://roshan.synotec.lk/files/mp3/4.mp3",
+                                                "mp3": "https://www.roshanfernando.lk/files/mp3/4.mp3",
                                                 "meta":
                                                 {
                                                 "artist": "Roshan Fernando",
                                                 "length_formatted": "3:58"
                                                 },
-                                                "src": "https://roshan.synotec.lk/files/mp3/4.mp3",
+                                                "src": "https://www.roshanfernando.lk/files/mp3/4.mp3",
                                                 "thumb":
                                                 {
                                                 "src": "img/songs/6.png"
@@ -258,18 +260,18 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
                                                 "artworkId": 0,
                                                 "artworkUrl": "#0",
                                                 "audioId": 5,
-                                                "audioUrl": "https://roshan.synotec.lk/files/mp3/5.mp3",
+                                                "audioUrl": "https://www.roshanfernando.lk/files/mp3/5.mp3",
                                                 "format": "mp3",
                                                 "length": "3:23",
                                                 "title": "Sihina Siththarawi ",
                                                 "order": 0,
-                                                "mp3": "https://roshan.synotec.lk/files/mp3/5.mp3",
+                                                "mp3": "https://www.roshanfernando.lk/files/mp3/5.mp3",
                                                 "meta":
                                                 {
                                                 "artist": "Roshan Fernando",
                                                 "length_formatted": "3:23"
                                                 },
-                                                "src": "https://roshan.synotec.lk/files/mp3/5.mp3",
+                                                "src": "https://www.roshanfernando.lk/files/mp3/5.mp3",
                                                 "thumb":
                                                 {
                                                 "src": "img/songs/4.png"
@@ -280,18 +282,18 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
                                                 "artworkId": 0,
                                                 "artworkUrl": "#0",
                                                 "audioId": 6,
-                                                "audioUrl": "https://roshan.synotec.lk/files/mp3/6.mp3",
+                                                "audioUrl": "https://www.roshanfernando.lk/files/mp3/6.mp3",
                                                 "format": "mp3",
                                                 "length": "4:01",
                                                 "title": " Wasantha Kaleta",
                                                 "order": 0,
-                                                "mp3": "https://roshan.synotec.lk/files/mp3/6.mp3",
+                                                "mp3": "https://www.roshanfernando.lk/files/mp3/6.mp3",
                                                 "meta":
                                                 {
                                                 "artist": "Roshan Fernando",
                                                 "length_formatted": "4:01"
                                                 },
-                                                "src": "https://roshan.synotec.lk/files/mp3/6.mp3",
+                                                "src": "https://www.roshanfernando.lk/files/mp3/6.mp3",
                                                 "thumb":
                                                 {
                                                 "src": "img/songs/8.png"
@@ -302,18 +304,18 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
                                                 "artworkId": 0,
                                                 "artworkUrl": "#0",
                                                 "audioId": 7,
-                                                "audioUrl": "https://roshan.synotec.lk/files/mp3/7.mp3",
+                                                "audioUrl": "https://www.roshanfernando.lk/files/mp3/7.mp3",
                                                 "format": "mp3",
                                                 "length": "3:42",
                                                 "title": "Methuwak Dura",
                                                 "order": 0,
-                                                "mp3": "https://roshan.synotec.lk/files/mp3/7.mp3",
+                                                "mp3": "https://www.roshanfernando.lk/files/mp3/7.mp3",
                                                 "meta":
                                                 {
                                                 "artist": "Roshan Fernando",
                                                 "length_formatted": "3:42"
                                                 },
-                                                "src": "https://roshan.synotec.lk/files/mp3/7.mp3",
+                                                "src": "https://www.roshanfernando.lk/files/mp3/7.mp3",
                                                 "thumb":
                                                 {
                                                 "src": "img/songs/7.png"
