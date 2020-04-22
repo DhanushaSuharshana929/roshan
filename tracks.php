@@ -6,10 +6,11 @@ include './class/include.php';
 <html class="no-js">
 
     <head>
-        <title>Singer</title>
+        <title>Best Sri Lankan Band | Best Band Artist | Roshan Fernando | Tracks</title>
         <meta charset="utf-8">
-
-        <meta name="description" content="">
+        <meta name="keywords" content="husma dige, supem suwandak aran, hitha hiri wattana, perada handawa, sihina siththarawi, wasantha kaleta, methuwak dura">
+        <meta name="description" content="Roshan Fernando was called a singer after the music video “Poojaniyai Adare” which was published in 19th of February 2003. ">
+         <meta name="author" content="Synotec Holdings">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">

@@ -13,10 +13,12 @@ $BIOGRAPHYDISCRIPTION = new Page(3);
 
 
     <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>Singer</title>
-        
+        <title>Best Sri Lankan Band | Best Band Artist | Roshan Fernando | About Us</title>
+        <meta name="keywords" content="music artist, flashback crew, singer, popular artists, presenter, flashback studio ">
+        <meta name="description" content="The band “Flashback”was established under the able guidance of Mr. Donald Fernando, the father of Roshan Fernando in 1991 in Katumeriya and he is also known as the founder of “Flashback”">
+        <meta name="author" content="Synotec Holdings">
        
-        <meta name="description" content="">
+       
         <meta name="viewport" content="width=device-width, initial-scale=1">
        
         <link rel="stylesheet" href="css/bootstrap.min.css">

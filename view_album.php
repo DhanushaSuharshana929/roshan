@@ -17,10 +17,11 @@ $ALBUM = new Attraction($id);
 
 
     <head>
-        <title>Singer</title>
+       <title>Best Sri Lankan Band | Best Band Artist | Roshan Fernando | View Album</title>
         <meta charset="utf-8">
-
-        <meta name="description" content="">
+        <meta name="keywords" content="punchi as deken, poojaniyai adare, suranganawan, sihina siththarawi, adare sundarai">
+        <meta name="description" content="Roshan Fernando has most popular albums.Some of them  are punchi as deken , poojaniyai adare, suranganawan ">
+         <meta name="author" content="Synotec Holdings">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">

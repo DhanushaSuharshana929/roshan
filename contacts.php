@@ -9,10 +9,11 @@ include './class/include.php';
 
 
     <head>
-        <title>Singer</title>
+       <title>Best Sri Lankan Band | Best Band Artist | Roshan Fernando | Contact</title>
         <meta charset="utf-8">
-
-        <meta name="description" content="">
+        <meta name="keywords" content="full name, address, subject, message">
+        <meta name="description" content="For booking and press inquiries please contact my manager by filling the form or calling the Roshan Fernando ">
+        <meta name="author" content="Synotec Holdings">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">

@@ -9,10 +9,11 @@ include './class/include.php';
 
 
     <head>
-        <title>Singer</title>
+        <title>Best Sri Lankan Band | Best Band Artist | Roshan Fernando | Gallery</title>
         <meta charset="utf-8">
-
-        <meta name="description" content="">
+        <meta name="keywords" content="music artist, flashback, singer, familly ">
+        <meta name="description" content="Roshan Fernando who started his career as a drummer is now the leader of the Flashback crew.">
+        <meta name="author" content="Synotec Holdings">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -24,7 +25,7 @@ include './class/include.php';
         <link rel="stylesheet" href="css/mediaelementplayer-legacy.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
-     
+
 
     </head>
 
@@ -81,16 +82,16 @@ include './class/include.php';
                             <?php
                             $GALLERY = new AlbumPhoto(NULL);
                             foreach ($GALLERY->all() as $gallery) {
-                            ?>
+                                ?>
 
                                 <div class="col-md-3 col-sm-4 col-sm-12 ">
-                                     <div class="item-media">  <img src="upload/photo-album/gallery/thumb/<?php echo $gallery['image_name']?>" alt=""/> 
+                                    <div class="item-media">  <img src="upload/photo-album/gallery/thumb/<?php echo $gallery['image_name'] ?>" alt=""/> 
 
-                                <div class="media-links"> <a class="abs-link prettyPhoto" data-gal="prettyPhoto[gal]" title="" href="upload/photo-album/gallery/<?php echo $gallery['image_name']?>"alt=""/></a> </div>
-                            </div>
+                                        <div class="media-links"> <a class="abs-link prettyPhoto" data-gal="prettyPhoto[gal]" title="" href="upload/photo-album/gallery/<?php echo $gallery['image_name'] ?>"alt=""/></a> </div>
+                                    </div>
                                 </div>
-                                
-                                
+
+
 
                                 <?php
                             }
@@ -103,7 +104,7 @@ include './class/include.php';
                 <?php
                 include './footer.php';
                 ?>
-                
+
             </div>
 
         </div>

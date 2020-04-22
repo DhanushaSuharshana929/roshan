@@ -4858,7 +4858,7 @@ header [class*="col-"],
 
 /* Hero text in sections */
 h2.section_header {
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 	font-size: 40px;
 	position: relative;
 	word-wrap: break-word;
