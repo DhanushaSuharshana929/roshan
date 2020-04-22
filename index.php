@@ -10,16 +10,16 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
 <html class="no-js">
 
 
-    <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>Singer</title>
-        
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <![endif]-->	
-        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-
+        <title>Best Sri Lankan Band | Best Band Artist | Roshan Fernando</title>
+        <meta name="keywords" content="music artist, flashback band, music band sri lanka, best music band in sri lanka, sri lankan music band, best singer in srilanka, sri lankan singers, flashback style">
+        <meta name="description" content="Roshan Fernando who started his career as a drummer is now the leader of the Flashback crew. After making an apperence in the TV programme “Mandakini” which was telecasted in “Jathika Rupawahini”">
+        <meta name="author" content="Synotec Holdings">
+        
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/animations.css">
         <link rel="stylesheet" href="css/fonts.css">
@@ -27,14 +27,13 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
         <link rel="stylesheet" href="css/main.css" class="color-switcher-link">
         <link rel="stylesheet" href="css/shop.css" class="color-switcher-link">
         <link rel="stylesheet" href="css/mediaelementplayer-legacy.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <link href="contact-form/style.css" rel="stylesheet" type="text/css"/>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
     </head>
 
 
     <body>
-
-
 
         <!--<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal"> <button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
         <!--        <span aria-hidden="true">-->
@@ -49,10 +48,11 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
 
         <!--<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">-->
         <!--    <div class="fw-messages-wrap ls with_padding">-->
-
         <!--    </div>-->
         <!--</div>-->
-
+        <div class="preloader">
+            <div class="preloader_image fa-spin"></div>
+        </div>
         <div id="canvas">
             <div id="box_wrapper">
 
@@ -66,7 +66,7 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
 
                 <section id="about" class="ds ms page_about parallax section_padding_top_130 section_padding_bottom_75 table_section table_section_md columns_margin_bottom_30">
                     <div class="container">
-                        
+
                         <div class="row">
                             <div class="col-md-6 text-center">
                                 <div class="with_frame_image"> <img src="img/about/about.png" alt="" class="rounded"> </div>
@@ -87,37 +87,36 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
                         </div>
                     </div>
                 </section>
-                  <section id="events" class="ds ms section_padding_top_50 section_padding_bottom_50">
+                <section id="events" class="ds ms section_padding_top_50 section_padding_bottom_50">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12 text-center">
                                 <h2 class="section_header with_line">My Albums</h2>
                                 <div class="owl-carousel topmargin_60" data-dots="false" data-nav="true" data-responsive-lg="3">
-                                    
-                                <?php
-                                $ALBUM = new Attraction(NULL);
-                                foreach ($ALBUM->all() as $album){
-                                   
-                                ?>
-                                        <div class="vertical-item content-absolute hover-entry-content">
-                                        <div class="item-media mutted-media ds">  
-                                            <img src="upload/attraction/<?php echo $album['image_name']?>" alt=""/>
 
-                                        </div>
-                                        <div class="item-content cs">
-                                            <h3 class="entry-title bottommargin_0"> <a href="#"></a> <?php echo $album['title']?></h3>
-                                            
-                                            <div class="entry-content">
-                                                <p> <?php echo $album['short_description']?></p>
-                                                <p class="topmargin_20 event_buttons"> <a href="./view_album.php?id=<?php echo $album['id'] ?>" class="theme_button color3 view_button">View More</a> </p>
+                                    <?php
+                                    $ALBUM = new Attraction(NULL);
+                                    foreach ($ALBUM->all() as $album) {
+                                        ?>
+                                        <div class="vertical-item content-absolute hover-entry-content">
+                                            <div class="item-media mutted-media ds">  
+                                                <img src="upload/attraction/<?php echo $album['image_name'] ?>" alt=""/>
+
+                                            </div>
+                                            <div class="item-content cs">
+                                                <h3 class="entry-title bottommargin_0"> <a href="#"></a> <?php echo $album['title'] ?></h3>
+
+                                                <div class="entry-content">
+                                                    <p> <?php echo $album['short_description'] ?></p>
+                                                    <p class="topmargin_20 event_buttons"> <a href="./view_album.php?id=<?php echo $album['id'] ?>" class="theme_button color3 view_button">View More</a> </p>
+                                                </div>
                                             </div>
                                         </div>
-                                             </div>
                                         <?php
-                                }
-                                ?>
-                                   
-                             
+                                    }
+                                    ?>
+
+
 
                                 </div>
                             </div>
@@ -442,7 +441,7 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
                             <div class="vertical-item corporate consulting">
                                 <div class="item-media">  <img src="upload/photo-album/gallery/thumb/<?php echo $gallery['image_name'] ?>" alt=""/> 
 
-                                    <div class="media-links"> <a class="abs-link prettyPhoto" data-gal="prettyPhoto[gal]" title="" href="upload/photo-album/gallery/<?php echo $gallery['image_name'] ?>"alt=""/></a> </div>
+                                    <div class="media-links"> <a class="abs-link prettyPhoto" data-gal="prettyPhoto[gal]" title="" href="upload/photo-album/gallery/<?php echo $gallery['image_name'] ?>"/></a> </div>
                                 </div>
                             </div>
 
@@ -455,17 +454,18 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
                 <?php
                 include './footer.php';
                 ?>
-               
+
             </div>
 
         </div>
+
 
         <script src="js/compressed.js"></script>
         <script src="js/main.js"></script>
         <script src="js/mediaelement-and-player.min.js"></script>
         <script src="js/mediaelement-migrate.min.js"></script>
         <script>
-
+            /* <![CDATA[ */
             var _cueSettings = {
                 "l10n":
                         {
@@ -475,12 +475,12 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
                             "togglePlaylist": "Toggle Playlist"
                         }
             };
-
+            /* ]]> */
         </script>
         <script src="js/cue.min.js"></script>
         <script src="js/switcher.js"></script>
-    </body>
 
-    <script src="contact-form/scripts.js" type="text/javascript"></script>
+
+    </body>
 
 </html>

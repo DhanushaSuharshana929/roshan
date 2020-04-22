@@ -6,10 +6,11 @@ include './class/include.php';
 <html class="no-js">
 
     <head>
-        <title>Singer</title>
+        <title>Best Sri Lankan Band | Best Band Artist | Roshan Fernando | Visual</title>
         <meta charset="utf-8">
-
-        <meta name="description" content="">
+        <meta name="keywords" content="oya hari, husma dige, heena purogena, oya nisa, perada handawa, methuwak dura, ahasa numba wge, deshabhimani song">
+        <meta name="description" content=" In the course of time Roshan Fernando was awarded two people’s awards the most popular singer for the and for the most popular song “Oya nisa Hadala” in 2013.">
+         <meta name="author" content="Synotec Holdings">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">

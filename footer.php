@@ -78,7 +78,7 @@
 
 
             <div class="col-md-6">
-                <p>&copy;2020 Rohan Fernando. All Rights Reserved.</p>
+                <p>&copy;2020 Roshan Fernando. All Rights Reserved.</p>
 
             </div>
 
