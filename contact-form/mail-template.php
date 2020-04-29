@@ -37,13 +37,7 @@ $visitor_message = '<html xmlns="http://www.w3.org/1999/xhtml">
 
 
 
-                                                                                    <td width="182">
-
-                                                                                        <a href="' . $site_link . '" alt="" class="CToWUd" border="0">
-                                                                                        <img src="' . $logo . '" alt="" class="CToWUd" border="0">
-                                                                                        </a>
-                                                                                    </td>
-
+                                                                                   
                                                                                     <td width="393">
 
                                                                                         <table width="100%" cellspacing="0" cellpadding="0" border="0" style="margin-bottom: 25px;">
@@ -82,9 +76,8 @@ $visitor_message = '<html xmlns="http://www.w3.org/1999/xhtml">
 
                                                                                                 <tr>
 
-                                                                                                    <td height="30">
-                                                                                                    <img src="https://ci3.googleusercontent.com/proxy/TYJ_zOrASsobTeDz_yvavwzKTAX7JrJGTJyCeRScsDTzGF54pub4t0wIRdM4iU3Avx31-3oG9cLkfEWyndCW6CIvp3jtKfO3KpewNC4=s0-d-e1-ft#https://synotec.lk/sites-mail-files/PROMO-GREEN2_01_04.jpg" alt="" class="CToWUd" width="393" height="30" border="0">
-                                                                                                    </td>
+                                                                                                   
+
 
                                                                                                 </tr>
 
@@ -220,14 +213,7 @@ $company_message = '<html xmlns="http://www.w3.org/1999/xhtml">
 
 
 
-                                                                                    <td width="182">
-
-                                                                                        <a href="' . $site_link . '" target="_blank"> <img src="' . $logo . '" alt="" class="CToWUd" border="0"></img>
-
-                                                                                        </a>
-
-                                                                                    </td>
-
+                                                                                    
                                                                                     <td width="393">
 
                                                                                         <table width="100%" cellspacing="0" cellpadding="0" border="0" style="margin-bottom: 25px;">
@@ -266,9 +252,7 @@ $company_message = '<html xmlns="http://www.w3.org/1999/xhtml">
 
                                                                                                 <tr>
 
-                                                                                                    <td height="30">
-                                                                                                    <img src="https://ci3.googleusercontent.com/proxy/TYJ_zOrASsobTeDz_yvavwzKTAX7JrJGTJyCeRScsDTzGF54pub4t0wIRdM4iU3Avx31-3oG9cLkfEWyndCW6CIvp3jtKfO3KpewNC4=s0-d-e1-ft#https://synotec.lk/sites-mail-files/PROMO-GREEN2_01_04.jpg" alt="" class="CToWUd" width="393" height="30" border="0">
-                                                                                                    </td>
+                                                                                                    
 
                                                                                                 </tr>
 
@@ -347,24 +331,7 @@ $company_message = '<html xmlns="http://www.w3.org/1999/xhtml">
                                                                             </font>
 
                                                                         </li>
-                                                                        
-     <li>
-
-                                                                            <font style="font-family:Verdana,Geneva,sans-serif;color:#68696a;font-size:14px">
-
-                                                                                 Contact Number : ' . $visitor_phone . '
-                                                                            </font>
-
-                                                                        </li>
-                                                                             <li>
-
-                                                                            <font style="font-family:Verdana,Geneva,sans-serif;color:#68696a;font-size:14px">
-
-                                                                                  Country : ' . $visitor_country . '
-
-                                                                            </font>
-
-                                                                        </li>
+                                                                   
                                              
 
 
@@ -417,6 +384,3 @@ $company_message = '<html xmlns="http://www.w3.org/1999/xhtml">
     </body>
 
 </html>';
-var_dump($company_message);
-exit();
-?>

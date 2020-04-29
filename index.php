@@ -389,6 +389,13 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
                                             <div class="contact-form-submit text-center"> <button type="submit" id="contact_form_submit" name="contact_submit" class="theme_button color1 min_width_button">Submit now</button> </div>
                                         </div>
                                     </div>
+                                     <div class="col-md-12">
+                                        <div class="form-group">
+                                            
+                                            <img src="contact-form/img/checking.gif" alt="checking" id="checking"/>
+                                        </div>
+                                        
+                                    </div>
                                     <div id="dismessage"   align="center"></div>
                                 </form>
                             </div>
