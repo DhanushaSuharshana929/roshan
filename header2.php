@@ -3,7 +3,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-12 display_table">
-                                <div class="header_left_logo display_table_cell"> <a href="#" class="logo top_logo">
+                                <div class="header_left_logo display_table_cell"> <a href="index.php" class="logo top_logo">
                                         <img src="img/logo.png" alt=""/>
                                     </a> </div>
                                 <div class="header_mainmenu display_table_cell text-center">

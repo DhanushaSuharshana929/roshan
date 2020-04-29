@@ -21,7 +21,7 @@
                         </div><br>
                         <div class="media small-media greylinks inline-block pull-left">
                             <div class="media-left"> <i class="fa fa-internet-explorer highlight" aria-hidden="true"></i> </div>
-                            <div class="media-body"> <a href="#">https:// www.roshanfernando.lk</a> </div>
+                            <div class="media-body"> <a href="#">www.roshanfernando.lk</a> </div>
                         </div>
                     </div>
                 </div>
@@ -84,8 +84,9 @@
 
             <div class="col-md-3 pull-right">
                 <a class=" pull-right" href="#" title="Instagram" target=""><img src="img/socialmedia/002-instagram.png" class="s-i" target="_blank" alt="" style="margin-left: 10px"/></a> 
-                <a class=" pull-right" href="https://api.whatsapp.com/send?phone=+94 77 741 1231" title="watsapp">  <img src="img/socialmedia/006-whatsapp.png" alt="" class="s-i" target="_blank" style="margin-left: 10px"/>  </a>
-                <a class=" pull-right" href="#" title="Facebook" target="_blank"> <img src="img/socialmedia/001-facebook.png" class="s-i" alt=""/></a>
+                <a class=" pull-right" href="https://www.youtube.com/channel/UCNbhBaSxzjD4Yr7bRVKiWaw/featured?view_as=subscriber" title="Youtube" target="_blank"> <img src="img/socialmedia/youtube-01.png" class="s-i" alt="" target="_blank" style="margin-left: 10px"/></a>
+<!--                <a class=" pull-right" href="https://api.whatsapp.com/send?phone=+94 77 741 1231" title="watsapp">  <img src="img/socialmedia/006-whatsapp.png" alt="" class="s-i" target="_blank" style="margin-left: 10px"/>  </a>-->
+                <a class=" pull-right" href=" https://www.facebook.com/RoshanFlashback/" title="Facebook" target="_blank"> <img src="img/socialmedia/001-facebook.png" class="s-i" alt=""/></a>
             </div>
 
         </div>
