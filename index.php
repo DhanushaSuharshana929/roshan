@@ -426,7 +426,7 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
                                                 </header>
                                                 <div class="entry-content">
                                                     <p class="content-3lines-ellipsis "style="text-align: justify"><?php echo $news['short_description'] ?></p> <span class="button_wrap">
-                                                        <a href="#" class="theme_button color1">Read More</a>
+                                                        <a href="./lates-news.php" class="theme_button color1">Read More</a>
                                                     </span> </div>
                                             </div>
                                         </article>
