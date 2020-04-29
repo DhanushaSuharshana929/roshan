@@ -31,14 +31,14 @@ $message = $_POST['message'];
 
 //---------------------- SERVER WEBMAIL LOGIN ------------------------
 
-$host = "premium52.web-hosting.com";
-$username = "info@galle.website";
-$password = "*J^.Vgr-v0Pt";
+$host = "sg1-ls7.a2hosting.com";
+$username ="mail@roshanfernando.lk";
+$password ="Roshan@Flashback";
 
 //------------------------ MAIL ESSENTIALS --------------------------------
 
 $webmail = "info@galle.website";
-$visitorSubject = "Thank You " . $visitor_name . " - Romaya Villas";
+$visitorSubject = "Thank You " . $visitor_name . " - Roshan Fernando";
 $companySubject = "Contact Inquiry - " . $visitor_name;
 
 //----------------------CAPTCHACODE---------------------
