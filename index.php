@@ -4,11 +4,8 @@ include './class/include.php';
 $BIOGRAPHYINFO = new Page(1);
 $BIOGRAPHYDISCRIPTION = new Page(2);
 ?>
-
 <!DOCTYPE html>
-
 <html class="no-js">
-
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -32,7 +29,6 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
 
     </head>
 
-
     <body>
 
         <!--<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal"> <button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
@@ -50,6 +46,7 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
         <!--    <div class="fw-messages-wrap ls with_padding">-->
         <!--    </div>-->
         <!--</div>-->
+        
         <div class="preloader">
             <div class="preloader_image fa-spin"></div>
         </div>
@@ -415,7 +412,7 @@ $BIOGRAPHYDISCRIPTION = new Page(2);
                                         <article class="vertical-item content-padding with_background rounded text-center offset_button">
                                             <div class="item-media top_rounded overflow_hidden"> 
                                                 <img src="upload/activity/<?php echo $news['image_name'] ?>" alt=""/>
-                                                <div class="media-links"> <a href="#" class="abs-link"></a> </div>
+                                                <div class="media-links"> <a href="lates-news.php?id=<?php echo $news['id']?>" class="abs-link"></a> </div>
                                             </div>
                                             <div class="item-content">
                                                 <header class="entry-header">

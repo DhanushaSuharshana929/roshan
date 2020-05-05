@@ -81,13 +81,11 @@ $NEWS = new Activities($id);
                                     <div class="entry-thumbnail item-media"> 
                                         <?php
                                         $NEWS_PHOTOS_OBJ = new ActivitiesPhoto(NULL);
-                                        $NEWS_PHOTOS = $NEWS_PHOTOS_OBJ->getActivitiesPhotosById($id);
+                                        $NEWS_PHOTOS = $NEWS_PHOTOS_OBJ->getActivitiesPhotosById($NEWS->id);
                                         foreach ($NEWS_PHOTOS as $key => $news_photos) {
-                                            if ($key == 0) {
-                                                ?>
-                                                <img src="upload/activity/gallery/<?php echo $NEWS->image_name ?>" alt=""> 
-                                                <?php
-                                            }
+                                            ?>
+                                        <img src="upload/activity/gallery/<?php echo $NEWS->image_name;?>" alt=""> 
+                                            <?php
                                         }
                                         ?>
                                     </div>
@@ -117,8 +115,8 @@ $NEWS = new Activities($id);
                                             <li class="media loop-color">
                                                 <div class="media-left media-middle"> <img src="upload/activity/<?php echo $news['image_name'] ?>" alt=""> </div>
                                                 <div class="media-body media-middle">
-                                                    <h4 class="entry-title"> <a href="lates-news.php?id=<?php echo $news['id'];?>"><?php echo $news['title'] ?></a> </h4>
-                                                  
+                                                    <h4 class="entry-title"> <a href="lates-news.php?id=<?php echo $news['id']; ?>"><?php echo $news['title'] ?></a> </h4>
+
                                                 </div>
                                             </li>
                                             <?php
