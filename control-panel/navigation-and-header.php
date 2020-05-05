@@ -635,12 +635,28 @@
                 </li>  
 
             </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
         </div>
         <!-- #Menu -->
         <!-- Footer -->
         <div class="legal">
             <div class="copyright">
-                &copy; <?php echo date('Y'); ?> <a href="javascript:void(0);">BY : SUBLIME HOLDINGS</a>.
+                &copy; <?php echo date('Y'); ?> <a href="javascript:void(0);">BY : SYNOTEC HOLDINGS</a>.
             </div>
             <div class="version">
                 <b>Version: </b> 2.0.0

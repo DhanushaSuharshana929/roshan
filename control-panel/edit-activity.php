@@ -45,7 +45,7 @@ $ACTIVITY = new Activities($id);
                         <div class="card">
                             <div class="header">
                                 <h2>
-                                    Edit Activity
+                                    Edit News
                                 </h2>
                                 <ul class="header-dropdown">
                                     <li class="">
