@@ -9,7 +9,7 @@ include './class/include.php';
 
 
     <head>
-       <title>Best Sri Lankan Band | Best Band Artist | Roshan Fernando | Contact</title>
+        <title>Best Sri Lankan Band | Best Band Artist | Roshan Fernando | Contact</title>
         <meta charset="utf-8">
         <meta name="keywords" content="full name, address, subject, message">
         <meta name="description" content="For booking and press inquiries please contact my manager by filling the form or calling the Roshan Fernando ">
@@ -26,7 +26,7 @@ include './class/include.php';
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <link href="contact-form/style.css" rel="stylesheet" type="text/css"/>
     </head>
-    
+
     <body>
 
 
@@ -85,11 +85,11 @@ include './class/include.php';
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group margin_0"> <label for="name">Full Name <span class="required">*</span></label> <input type="text" aria-required="true" size="30" value="" name="name" id="txtFullName" class="form-control" placeholder="Full Name*"> 
-                                              
+
                                             </div> 
                                             <div class="form-group col-md-12 col-sm-12 co-xs-12">
-                                                    <span id="spanFullName"></span> 
-                                                </div>
+                                                <span id="spanFullName"></span> 
+                                            </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group margin_0"> <label for="email">Email address<span class="required">*</span></label> <input type="email" aria-required="true" size="30" value="" name="email" id="txtEmail" class="form-control" placeholder="Your Email Address*"> 
@@ -125,10 +125,10 @@ include './class/include.php';
                                         <div class="form-group col-md-5  col-sm-12 co-xs-12">
 
 
-                                            <?php include './contact-form/captchacode-widget.php';?>
+                                            <?php include './contact-form/captchacode-widget.php'; ?>
                                         </div>
 
-                                      
+
                                     </div>
                                     <div class="row topmargin_20">
                                         <div class="col-sm-12">
@@ -138,14 +138,14 @@ include './class/include.php';
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            
+
                                             <img src="contact-form/img/checking.gif" alt="checking" id="checking"/>
                                         </div>
-                                        
+
                                     </div>
-                                    
-                                   <div id="dismessage"  align=center"></div>
-                                                     
+
+                                    <div id="dismessage"  align=center"></div>
+
                                 </div>
                             </div>
                         </div>
@@ -154,7 +154,7 @@ include './class/include.php';
                 <?php
                 include './footer.php';
                 ?>
-               
+
             </div>
 
         </div>

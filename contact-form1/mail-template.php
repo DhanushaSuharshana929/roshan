@@ -37,7 +37,7 @@ $visitor_message = '<html xmlns="http://www.w3.org/1999/xhtml">
 
 
 
-
+                                                                                   
                                                                                     <td width="393">
 
                                                                                         <table width="100%" cellspacing="0" cellpadding="0" border="0" style="margin-bottom: 25px;">
@@ -74,6 +74,12 @@ $visitor_message = '<html xmlns="http://www.w3.org/1999/xhtml">
 
                                                                                                 </tr>
 
+                                                                                                <tr>
+
+                                                                                                   
+
+
+                                                                                                </tr>
 
                                                                                             </tbody></table>
 
@@ -207,8 +213,7 @@ $company_message = '<html xmlns="http://www.w3.org/1999/xhtml">
 
 
 
-                                                                                  
-
+                                                                                    
                                                                                     <td width="393">
 
                                                                                         <table width="100%" cellspacing="0" cellpadding="0" border="0" style="margin-bottom: 25px;">
@@ -245,7 +250,11 @@ $company_message = '<html xmlns="http://www.w3.org/1999/xhtml">
 
                                                                                                 </tr>
 
-                                                                                 
+                                                                                                <tr>
+
+                                                                                                    
+
+                                                                                                </tr>
 
                                                                                             </tbody></table>
 
@@ -322,14 +331,7 @@ $company_message = '<html xmlns="http://www.w3.org/1999/xhtml">
                                                                             </font>
 
                                                                         </li>
-                                                                        
-     <li>
-
-                                                                            <font style="font-family:Verdana,Geneva,sans-serif;color:#68696a;font-size:14px">
-
-                                                                                 Contact Number : ' . $visitor_phone . '
-                                                                            </font>
-
+                                                                   
                                              
 
 
@@ -382,4 +384,3 @@ $company_message = '<html xmlns="http://www.w3.org/1999/xhtml">
     </body>
 
 </html>';
-?>
