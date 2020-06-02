@@ -45,7 +45,7 @@ $ACTIVITY_PHOTO = new ActivitiesPhoto($id);
                         <div class="card">
                             <div class="header">
                                 <h2>
-                                    Edit Activity Photo
+                                    Edit Latest News
                                 </h2>
 
                             </div>

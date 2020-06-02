@@ -23,7 +23,7 @@ $NEWS = new Activities($id);
         <link rel="stylesheet" href="css/shop.css" class="color-switcher-link">
         <link rel="stylesheet" href="css/mediaelementplayer-legacy.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-
+        <link href="contact-form/style.css" rel="stylesheet" type="text/css"/>
     </head>
 
     <body>
@@ -84,10 +84,13 @@ $NEWS = new Activities($id);
                                         $NEWS_PHOTOS = $NEWS_PHOTOS_OBJ->getActivitiesPhotosById($NEWS->id);
                                         foreach ($NEWS_PHOTOS as $key => $news_photos) {
                                             ?>
-                                        <img src="upload/activity/gallery/<?php echo $NEWS->image_name;?>" alt=""> 
+                                            <div class="col-md-6 ">
+                                                <img src="upload/activity/gallery/<?php echo $news_photos['image_name']?>" alt=""> 
+                                            </div>
                                             <?php
                                         }
                                         ?>
+
                                     </div>
                                     <div class="item-content">
 
